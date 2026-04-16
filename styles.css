@@ -114,6 +114,7 @@ footer a {
   transform: rotate(-5deg);
   font-family: "Anton", sans-serif;
   font-weight: 800;
+  margin-top: 10px;
 }
 
 .fediverse-letter-2 {
