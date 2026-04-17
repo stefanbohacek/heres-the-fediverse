@@ -10,11 +10,12 @@ ready(() => {
   const words = [
     "the billionaires",
     "the ads",
+    "the algorithms",
     "the investors",
     "the crypto",
     "the AI",
     "the venture capital",
-    "the algorithms",
+    "the NFTs",
   ];
 
   let current = 0;
