@@ -1,12 +1,26 @@
+:root {
+  --color-bg: #f4ea0c;
+  --color-text: black;
+  --color-accent: #d92c73;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: rgb(33, 37, 41);
+    --color-text: rgb(173, 181, 189);
+    --color-accent: rgb(173, 181, 189);
+  }
+}
+
 body {
-  background-color: #f4ea0c;
+  background-color: var(--color-bg);
+  color: var(--color-text);
   min-height: 100dvh;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* overflow: hidden; */
   overflow-x: hidden;
 }
 
@@ -30,7 +44,7 @@ footer {
 }
 
 footer a {
-  color: black;
+  color: var(--color-text);
 }
 
 .line-1,
@@ -88,11 +102,11 @@ footer a {
   font-family: "Anton", sans-serif;
   font-weight: 800;
   font-size: clamp(1.5rem, 6vw, 5rem);
-  color: #f4ea0c;
+  color: var(--color-bg);
 }
 
 .line-4 a {
-  color: #f4ea0c;
+  color: var(--color-bg);
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -156,4 +170,12 @@ footer a {
     ui-rounded, "Hiragino Maru Gothic ProN", Quicksand, Comfortaa, Manjari,
     "Arial Rounded MT", "Arial Rounded MT Bold", Calibri, source-sans-pro,
     sans-serif;
+}
+
+svg#fediverse path:first-child {
+  fill: var(--color-bg);
+}
+
+svg#fediverse path:last-child {
+  fill: var(--color-accent);
 }
