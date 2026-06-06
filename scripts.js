@@ -9,12 +9,12 @@ const ready = (fn) => {
 ready(() => {
   const words = [
     "the billionaires",
+    "the investors",
+    "the venture capital",
     "the ads",
     "the algorithms",
-    "the investors",
     "the crypto",
     "the AI",
-    "the venture capital",
     "the NFTs",
   ];
 
