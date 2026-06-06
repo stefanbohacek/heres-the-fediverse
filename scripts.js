@@ -12,7 +12,7 @@ ready(() => {
     "the investors",
     "the venture capital",
     "the ads",
-    "the algorithms",
+    "the algorithm",
     "the crypto",
     "the AI",
     "the NFTs",
