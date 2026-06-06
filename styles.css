@@ -36,13 +36,20 @@ main p {
   margin: 0;
 }
 
+.intro{
+  margin-top: 4rem;
+  font-size: 1.3rem;
+}
+
 footer {
   font-family: sans-serif;
   margin-top: auto;
   padding: 1rem;
   font-size: 0.875rem;
+  text-align: center;
 }
 
+.intro a,
 footer a {
   color: var(--color-text);
 }
